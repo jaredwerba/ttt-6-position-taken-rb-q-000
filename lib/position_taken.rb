@@ -1,10 +1,14 @@
 # code your #position_taken? method here!
 board = []
-input = gets.strip
-def position_taken?(input, board)
-  if input == " " && ""
-    false
+position = 0
+
+
+def position_taken?(board, position)
+  if position == " " && ""
+    return false
     else
-    true
+      puts "Wtf"
   end
 end
+
+position_taken?(board, position)
