@@ -4,9 +4,9 @@
 def position_taken?(board, position)
   if board[0] =="" || board[0]== " "
   return false
-
-  # elsif board = (1..9)
-  #   return true
+  elsif
+    board[0] == nil
+    return false
   else
   return true
   end
