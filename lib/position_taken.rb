@@ -1,14 +1,14 @@
 # code your #position_taken? method here!
-board = []
-position = 0
-
+# board = "O"
 
 def position_taken?(board, position)
-  if position == " " && ""
-    return false
-    else
-      puts "Wtf"
-  end
-end
+  if board[0] =="" || board[0]== " "
+  return false
 
-position_taken?(board, position)
+  # elsif board = (1..9)
+  #   return true
+  else
+  return true
+  end
+
+end
